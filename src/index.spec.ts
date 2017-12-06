@@ -1,5 +1,5 @@
 import {expect} from 'chai';
-import {add} from './example-code';
+import {add} from './';
 
 describe('Example Code Spec', () => {
   it('should run mocha', () => {

@@ -4,18 +4,20 @@
   "description": "A little boilerplate to get a quick typescript tdd setting up and running.",
   "main": "src/index.ts",
   "scripts": {
-    "test": "node_modules/.bin/mocha --opts ./mocha.opts"
+    "test": "node_modules/.bin/mocha --opts ./mocha.opts",
+    "build":"tsc"
   },
   "keywords": [
     "mocha",
     "typescript",
     "tdd"
   ],
-  "author": "David Losert",
+  "author": "elmarti",
   "license": "MIT",
   "dependencies": {
     "@types/chai": "^4.0.4",
     "@types/mocha": "^2.2.44",
+    "@types/navigation": "^4.0.3",
     "@types/sinon": "^2.3.7",
     "@types/sinon-chai": "^2.7.29",
     "chai": "^4.1.2",
